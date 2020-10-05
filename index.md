@@ -20,4 +20,4 @@ Populate the dog images and breed by hitting the Dog API when the page loads.
 
 
 
-_Use whatever frameworks you want if it makes your life easier, as long as you can talk through what's going on with the code._
+_Use whatever frameworks you want if it makes your life easier, as long as you can talk through what's going on with the code. Also, we aren't trying for any gotchas or test your ability to read our minds. Use your best judgement and have some fun._
