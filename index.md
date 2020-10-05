@@ -1,37 +1,22 @@
-## Welcome to GitHub Pages
+## Code challenge
 
-You can use the [editor on GitHub](https://github.com/hellofallguy/htmlcsschallenge/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+We want you to build a page with a responsive menu with 6 menu items in CSS and HTML.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+- For small screens, the menu should be a collapsible vertical menu with left-aligned menu item text. The page content should be below the menu. The menu and content should fill the entire width of the screen.
+- For larger screens, the menu should be fully-visible horizontal menu centered on the page with centered text. The page content should show below the menu and be centered with additional margin or padding.
+- When you click on the a menu item, it should show **three** dogs along with their corresponding breed.
+  - Use the [Dog API](https://dog.ceo/dog-api/) for images and breed info (you should be able to get the breed from the file path).
+  - The dog image on the left should take up 50% of the container and the breed text on the right should take up half the container and be centered vertically and horizontally. The height of the container can match the height of the image. Normalize the image dimensions for each dog if you want extra points.
+    ![Image](https://i.imgur.com/2DFFWgg.png)
 
-### Markdown
+### Bonus
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Use JavaScript to show or hide the breed text with a query string paramenter.
 
-```markdown
-Syntax highlighted code block
+### Bonus++
 
-# Header 1
-## Header 2
-### Header 3
+Populate the dog images and breed by hitting the Dog API when the page loads.
 
-- Bulleted
-- List
 
-1. Numbered
-2. List
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/hellofallguy/htmlcsschallenge/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+_Use whatever frameworks you want if it makes your life easier, as long as you can talk through what's going on with the code._
